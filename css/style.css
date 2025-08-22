@@ -1,121 +1,194 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-
 body {
-    background: #fff;
-    color: #333;
+  background: #fff;
+  color: #333;
 }
 
-/* Section 1 - Banner */
+
+
 .m1 {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
-
 .img1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(70%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
 }
-
 .m1 .text {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    color: white;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
 }
 
+.m1 .text2 {
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  color: white;
+}
+
+.m1 .text3 {
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  color: white;
+  list-style: none;
+}
+.m1 .text3 li {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.m1 .text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 .m1 .text h1 {
-    font-size: 60px;
-    font-weight: bold;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
 }
-
 .m1 .text p {
-    margin: 15px 0;
-    max-width: 400px;
+  margin: 20px 0;
+  max-width: 400px;
+}
+.btn {
+  padding: 10px 20px;
+  background: #fbb034;
+  color:black;
+  font-weight: 600;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.m1 .btn {
-    padding: 10px 20px;
-    background: #fbb034;
-    color: #fff;
-    border: none;
-    margin-right: 10px;
-    cursor: pointer;
-    border-radius: 5px;
+.btn2, #btn2 {
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fbb034;
+  border: 1px solid #fbb034;
 }
 
-/* Section 2 - Cards */
+
+
+
+
 .m2 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px 0;
-    background: #f7f7f7;
+  text-align: center;
+  padding: 50px 0;
+  background: #f7f7f7;
 }
-
 .sub1 {
-    width: 250px;
-    height: 150px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    padding: 20px;
-    text-align: center;
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.sub1 h3 {
+  margin-bottom: 10px;
+}
+.sub1 a {
+  display: block;
+  margin-top: 10px;
+  color: #fbb034;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Section 3 - Features */
+
+
+
+
+
 .m3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 10%;
+  padding: 50px 10%;
+  text-align: center;
 }
-
 .m3 ul {
-    list-style: none;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+  text-align: left;
 }
-
 .m3 li {
-    margin: 15px 0;
-    font-size: 18px;
+  margin: 15px 0;
+  font-size: 25px;
+  color: rgb(139, 64, 209); 
+  font-weight: 550;
+}
+.feature-img {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-/* Section 4 - Footer with bg */
+
+
+
+
 .m4 {
-    position: relative;
-    height: 300px;
-    overflow: hidden;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
 }
-
 .img2 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(60%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
 }
-
 .m4 .contact {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
-
+.m4 .contact h2 {
+  margin-bottom: 20px;
+}
 .m4 .contact button {
-    padding: 10px 20px;
-    background: #fbb034;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    margin-right: 10px;
-    cursor: pointer;
+  padding: 10px 20px;
+  background: #fbb034;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+  font-size: 14px;
+}
+.heart{
+    width: 15px;
 }

@@ -4,199 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Burger Bun</title>
+  <link rel="stylesheet" href="css/style.css">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    body {
-      background: #fff;
-      color: #333;
-    }
-    /* Section 1 - Banner */
-    .m1 {
-      position: relative;
-      height: 100vh;
-      overflow: hidden;
-    }
-    .img1 {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      filter: brightness(70%);
-    }
-    .m1 .text {
-      position: absolute;
-      top: 30%;
-      left: 10%;
-      color: white;
-    }
-    .m1 .text h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    .m1 .text h1 {
-      font-size: 60px;
-      font-weight: bold;
-      line-height: 1.1;
-    }
-    .m1 .text p {
-      margin: 20px 0;
-      max-width: 400px;
-    }
-    .btn {
-      padding: 10px 20px;
-      background: #fbb034;
-      color: #fff;
-      border: none;
-      margin-right: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    /* Section 2 - Cards */
-    .m2 {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 50px 0;
-      background: #f7f7f7;
-    }
-    .sub1 {
-      width: 250px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-      padding: 20px;
-      text-align: center;
-    }
-    .sub1 h3 {
-      margin-bottom: 10px;
-    }
-    .sub1 a {
-      display: block;
-      margin-top: 10px;
-      color: #fbb034;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    /* Section 3 - Features */
-    .m3 {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 50px 10%;
-    }
-    .m3 ul {
-      list-style: none;
-    }
-    .m3 li {
-      margin: 15px 0;
-      font-size: 18px;
-    }
-    .feature-img {
-      width: 300px;
-    }
-    /* Section 4 - Footer with bg */
-    .m4 {
-      position: relative;
-      height: 300px;
-      overflow: hidden;
-    }
-    .img2 {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      filter: brightness(60%);
-    }
-    .m4 .contact {
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      transform: translateY(-50%);
-      color: white;
-      font-size: 20px;
-    }
-    .m4 .contact h2 {
-      margin-bottom: 20px;
-    }
-    .m4 .contact button {
-      padding: 10px 20px;
-      background: #fbb034;
-      border: none;
-      border-radius: 5px;
-      color: #fff;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-    .copyright {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      color: #aaa;
-      font-size: 14px;
-    }
+
   </style>
 </head>
 <body>
 
-  <!-- Hero -->
+
   <div class="m1">
     <img class="img1" src="/images/banner.jpg" />
+    <div class="text2">
+      <h3>🍔Burger Bun</h3>
+    </div>
+    <div class="text3">
+      <li class="nav" style="color: #fbb034;" >Home</li>
+      <li class="nav">About</li>
+      <li class="nav">Menu</li>
+      <li class="nav">Contact</li>
+    </div>
     <div class="text">
       <h2>Delight your Best.</h2>
       <h1>Steak <br> Burger</h1>
       <p>We are dedicated to the safety of our guests and employees and have updated our safety measures. Lorem ipsum dolor sit amet.</p>
       <button class="btn">See Menu</button>
-      <button class="btn">Book a table</button>
+      <button class="btn2"  >Book a table</button>
     </div>
   </div>
 
-  <!-- Cards -->
   <div class="m2">
     <div class="sub1">
       <h3>🍔 Burgers</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita amet deleniti suscipit nam.</p>
       <a href="#">View all</a>
     </div>
     <div class="sub1">
       <h3>🍟 Snacks</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aspernatur tempore veritatis!</p>
       <a href="#">View all</a>
     </div>
     <div class="sub1">
       <h3>🥤 Beverages</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium iste excepturi explicabo quam.</p>
       <a href="#">View all</a>
     </div>
   </div>
 
-  <!-- Features -->
   <div class="m3">
     <ul>
-      <li>✅ Natural ingredients</li>
-      <li>✅ Fresh vegetables & Meat</li>
-      <li>✅ World’s best Chef</li>
-      <li>✅ Best quality products</li>
-      <li>✅ Fastest door delivery</li>
-      <li>✅ Ground beef & Low fat</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> Natural ingredients</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> Fresh vegetables & Meat</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> World’s best Chef</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> Best quality products</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> Fastest door delivery</li>
+      <li class="li"><img class="heart" src="/images/heart.png"> Ground beef & Low fat</li>
     </ul>
     <img src="/images/burger1.png" class="feature-img" />
   </div>
 
-  <!-- Footer -->
   <div class="m4">
-    <img class="img2" src="/images/banner.jpg">
+    <img class="img2" src="/images/bg.jpg">
     <div class="contact">
-      <h2>Call us to order: <span>+1 123 456 789</span></h2>
+      <h2>Call us to order: <span style="color: #fbb034;">+1 123 456 789</span></h2>
       <button>Contact Us</button>
-      <button>Book a table</button>
+      <button id="btn2" >Book a table</button>
     </div>
   </div>
 
   <div class="copyright">
-    © 2020 Burger Bun. All rights reserved | Design by Mostafa Farag
+    © 2025 Burger Bun. All rights reserved | Design by Ahmed Atef
   </div>
 
 </body>
